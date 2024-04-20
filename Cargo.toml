@@ -1,0 +1,14 @@
+[package]
+name = "sorting_lib"
+version = "0.1.0"
+edition = "2021"
+authors = ["Azimbai Nurzhau <onetenge@gmail.com>"]
+license = "MIT"
+
+[dependencies]
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "example"
+path = "bin/main.rs"
