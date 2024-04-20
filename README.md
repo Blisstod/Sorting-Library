@@ -13,7 +13,7 @@ The library includes the following sorting algorithms with additional resources 
 
 ## Usage
 
-To integrate this sorting library into your Rust project, add it to your `Cargo.toml` dependencies:
+1. **Dependencies**: To integrate this sorting library into your Rust project, add it to your `Cargo.toml` dependencies:
 
 ```toml
 [dependencies]
@@ -24,9 +24,10 @@ sorting_lib = "0.1.0"
 
 Replace <path_to_sorting_lib> with the actual path to where this library is stored on your local machine.
 
+2. **Image Example**:
 ![alt text](image.png)
 
-2. **Examples**: It's important to either have a separate `examples/` directory with standalone example files that users can run, or the examples should be included as part of the documentation or tests. If you've placed examples within the `bin/main.rs`, indicate how to run the `example` binary:
+3. **Examples**: It's important to either have a separate `examples/` directory with standalone example files that users can run, or the examples should be included as part of the documentation or tests. If you've placed examples within the `bin/main.rs`, indicate how to run the `example` binary:
 
 ```rust
 use sorting_lib::sorting::*;
